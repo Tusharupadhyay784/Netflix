@@ -1,0 +1,40 @@
+.comp3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif !important;
+  height: 68vh;
+}
+.comp3 .comp3-1 {
+  height: 25vh;
+  padding: 0.5em;
+  width: 36vw;
+  margin-top: 2em;
+}
+.comp3 .comp3-1 > h2 {
+  font-family: sans-serif !important;
+  font-size: 3.4em;
+  margin-bottom: 0.3em;
+}
+.comp3 .comp3-1 > p {
+  font-family: sans-serif !important;
+  width: 38vw;
+  font-size: 1.5em;
+}
+.comp3 .comp3-2 {
+  position: relative;
+  width: 40vw;
+}
+.comp3 .comp3-2 .comp3-2-1 > img {
+  width: 38vw;
+  z-index: 1;
+  margin-left: 3em;
+}
+.comp3 .comp3-2 .comp3-2-1 > video {
+  position: absolute;
+  top: 3em;
+  left: 9.5em;
+  width: 23vw;
+  z-index: -1;
+}/*# sourceMappingURL=comp3.css.map */

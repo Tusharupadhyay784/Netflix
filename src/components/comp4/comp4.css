@@ -1,0 +1,35 @@
+.comp4 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 70vh;
+}
+.comp4 .comp4-2 {
+  height: 40vh;
+  width: 42vw;
+  padding: 2em;
+  z-index: 10;
+}
+.comp4 .comp4-2 > h2 {
+  font-size: 3.2em;
+  font-weight: bolder;
+}
+.comp4 .comp4-2 > p {
+  font-size: 1.5em;
+  margin-top: 1em;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.comp4 .comp4-1 {
+  position: relative;
+  width: 40vw;
+  height: 60vh;
+  z-index: 9;
+  padding: 1em;
+}
+.comp4 .comp4-1 > img {
+  margin-left: 2em;
+  width: 40vw;
+}/*# sourceMappingURL=comp4.css.map */

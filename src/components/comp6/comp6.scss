@@ -1,0 +1,85 @@
+.comp6 {
+    color: rgba(255, 255, 255, .7);
+    height: 60vh;
+    margin-left: 9em;
+    
+
+    >p {
+        padding: 2em;
+        font-family: sans-serif;
+        >span {
+            // border-bottom-width: 12px;
+            // border-color: rgba(255,255,255,.7);
+            border-bottom-width: .1px;
+            cursor: pointer;
+            border-bottom-style: solid;
+
+        }
+    }
+
+    .comp6-2 {
+        display: flex;
+        // border: 2px solid white;
+        gap: 10em;
+        height: 50vh;
+
+        >div {
+            // border: 2px solid white;
+            padding: 2em;
+            display: flex;
+            // font-family: sans-serif;
+            flex-direction: column;
+
+            >a {
+                font-family: sans-serif;
+                font-size: .9em;
+                color: rgba(255, 255, 255, .7);
+                &:active{
+                    color:rgb(229, 9, 20);
+                }
+            }
+
+           
+
+                .top-right-first2 {
+                    border: .01px solid rgba(128, 128, 128, 0.7);
+                    border-width: thin;
+                    outline: none;
+                    border-radius: .3em;
+                    // margin-left: 1em;
+                    margin-bottom: 1em;
+                    display: flex;
+                    height: 4.5vh;
+                    font-family: sans-serif;
+
+                    // justify-content: space-evenly;
+                    .icon {
+                        margin-top: .25em;
+                        font-size: 1.5em;
+                        margin-left: .1em;
+                        border: none;
+                        outline: none;
+                        background: transparents;
+                    }
+
+                    #lang2 {
+                        margin-left: .3em;
+                        background: transparent;
+                        color: white;
+                        border: none;
+                        outline: none;
+                        font-style: normal;
+
+                        font-size: 1.1em;
+                        width: 7vw;
+
+                        &:active {
+                            border: none;
+                            outline: none;
+                        }
+                    }
+
+                }
+            }
+        }
+    }

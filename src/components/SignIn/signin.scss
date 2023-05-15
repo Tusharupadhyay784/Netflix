@@ -1,0 +1,304 @@
+// https://assets.nflxext.com/ffe/siteui/vlv3/d54727b4-2ad9-4e71-bb48-0899f55f103a/4ce96108-1f99-4476-ba90-af8b26d471e7/IN-en-20230220-popsignuptwoweeks-perspective_alpha_website_medium.jpg
+.signin {
+    // overflow-x: hidden;
+    // height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/d54727b4-2ad9-4e71-bb48-0899f55f103a/4ce96108-1f99-4476-ba90-af8b26d471e7/IN-en-20230220-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: 150em cover;
+    z-index: 999;
+    position: sticky;
+    
+    >div{
+        
+        height: 120vh;
+        background-color: rgba(28, 28, 28, .55);
+        z-index: -1;
+    }
+    // .signin_image {
+    //     // height: 100vh;
+    //     opacity: .49;
+    //     // z-index: -1;
+    //     // position: sticky;
+    // }
+
+    .signin_content {
+        color: white;
+        // z-index: -1;
+        // border: 2px solid white;
+        // position: absolute;
+        width: 100%;
+        top: 0;
+
+        // height: 15vh;
+        >img {
+            height: 6vh;
+            margin: 1.3em 2.6em;
+            // padding: 1em;
+            cursor: pointer;
+        }
+    }
+
+    .form_content {
+        // position: static;
+        // border: 2px solid white;
+        // position: sticky;
+        // top: 7em;
+        // left: 33.5%;
+        height: 82vh;
+        width: 32%;
+        border-radius: .3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 3em 0rem;
+        background-color: rgba(0, 0, 0, .77);
+
+        >div {
+            display: flex;
+            // border: 2px solid white;
+            // height:50vh;
+            flex-direction: column;
+            height: 65vh;
+            width: 30vw;
+            // justify-content: center;
+            // align-items: center;
+            padding: 0em 2em;
+            margin-left: 1em;
+
+            >h3 {
+                color: white;
+                font-size: 2.1em;
+                padding-left: .3em;
+                margin-bottom: .5em;
+
+            }
+
+            >input {
+                height: 7vh;
+                margin: .7em;
+                width: 22vw;
+                border-radius: .2em;
+                border: none;
+                outline: none;
+                background: transparent;
+                background-color: rgba(255, 255, 255, .2);
+                // background-color: #6e6e6e;
+                color: white;
+                font-size: 1.15em;
+                font-family: sans-serif;
+                &::placeholder {
+                    color: rgba(255, 255, 255, .7);
+                    padding-left: 1em;
+                    font-size: .8em;
+
+                    font-family: sans-serif;
+
+                }
+            }
+
+            >button {
+                border: 2px solid white;
+                width: 21vw;
+                margin: 2em .8em;
+                height: 6vh;
+                background-color: #e50914;
+                border: none;
+                color: white;
+                font-size: 1.1em;
+                border-radius: .2em;
+                font-family: sans-serif;
+                cursor: pointer;
+            }
+
+            >div {
+                color: white;
+                // border: 2px solid white;
+                display: flex;
+                justify-content: space-between;
+                height: 4vh;
+                margin-top: -1em;
+                width: 21vw;
+                margin-left: 1em;
+                align-items: center;
+                >span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: sans-serif;
+                    color: #ccc;
+                    font-size: .85em;
+                    gap: .3em;
+
+                    .sinp:checked::after{
+                        background-color: #e50914;
+                    }
+                }
+                >p{
+                    font-family: sans-serif;
+                    font-size: .92em;
+                    color: #ccc;
+
+                }
+            }
+            #one{
+                // border: 2px solid white;
+                color: white;
+                font-family: sans-serif;
+                color: rgba(255, 255, 255, .4);
+                height: 4vh;
+                font-size: 1em;
+                margin-left: 1em;
+                margin-top: 1em;
+                >button{
+                    // height: 4vh;
+                    font-size: 1.1em;
+                    background: transparent;
+                    color: white;
+                    cursor: pointer;
+                    font-family: sans-serif;
+                    border: none;
+                    &:hover{
+                        border-bottom-width: .1px;
+                        border-bottom-style: solid;
+                        border-bottom-color: white;
+                    }
+                }
+            }
+            #two{
+                color: white;
+                margin-left: 1.3em;
+                font-family: sans-serif;
+                font-size: .83em;
+                color: #aaa;
+                >span{
+                    color: #0071eb;
+                    font-family: sans-serif;
+                    font-size: 1.1em;
+                    &:hover{
+                        border-bottom-width: .1px;
+                        border-bottom-style: solid;
+                        border-bottom-color: #0071eb;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .comp8 {
+        color: rgba(255, 255, 255, .7);
+        height: fit-content;
+        // margin-left: 9em;
+        margin-top: -10em;
+        
+        // border: 2px solid white;
+        background-color: rgba(0, 0, 0, .77);
+        
+    
+        >p {
+            padding: 2em;
+            font-family: sans-serif;
+            margin-left: 10em;
+            color: #aaa;
+            >span {
+                // border-bottom-width: 12px;
+                // border-color: rgba(255,255,255,.7);
+                // border-bottom-width: .1px;
+                cursor: pointer;
+                // border-bottom-style: solid;
+    
+            }
+        }
+    
+        .comp8-2 {
+            display: flex;
+            // border: 2px solid white;
+            // gap: 10em;
+            // height: 50vh;
+            height: fit-content;
+            margin-left: 10em;
+            gap: 5em;
+    
+            >div {
+                // border: 2px solid white;
+                padding: 2em;
+                display: flex;
+                // font-family: sans-serif;
+                flex-direction: column;
+    
+                >a {
+                    font-family: sans-serif;
+                    font-size: .8em;
+                    color: rgba(255, 255, 255, .4);
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                    &:active{
+                        color:rgb(229, 9, 20);
+                    }
+                }
+    
+               
+    
+                    .top-right-first8 {
+                        border: .01px solid rgba(128, 128, 128, 0.7);
+                        border-width: thin;
+                        outline: none;
+                        border-radius: .3em;
+                        // margin-left: 1em;
+                        margin-bottom: 1em;
+                        display: flex;
+                        height: 4.5vh;
+                        font-family: sans-serif;
+    
+                        // justify-content: space-evenly;
+                        .icon {
+                            margin-top: .25em;
+                            font-size: 1.5em;
+                            margin-left: .1em;
+                            border: none;
+                            outline: none;
+                            background: transparents;
+                        }
+    
+                        #lang2 {
+                            margin-left: .3em;
+                            background: transparent;
+                            color: white;
+                            border: none;
+                            outline: none;
+                            font-style: normal;
+    
+                            font-size: 1.1em;
+                            width: 7vw;
+    
+                            &:active {
+                                border: none;
+                                outline: none;
+                            }
+                        }
+    
+                    }
+                }
+            }
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,216 @@
+.signin {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/d54727b4-2ad9-4e71-bb48-0899f55f103a/4ce96108-1f99-4476-ba90-af8b26d471e7/IN-en-20230220-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-repeat: no-repeat;
+  background-size: 150em cover;
+  z-index: 999;
+  position: sticky;
+}
+.signin > div {
+  height: 120vh;
+  background-color: rgba(28, 28, 28, 0.55);
+  z-index: -1;
+}
+.signin .signin_content {
+  color: white;
+  width: 100%;
+  top: 0;
+}
+.signin .signin_content > img {
+  height: 6vh;
+  margin: 1.3em 2.6em;
+  cursor: pointer;
+}
+.signin .form_content {
+  height: 82vh;
+  width: 32%;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 3em 0rem;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+.signin .form_content > div {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 30vw;
+  padding: 0em 2em;
+  margin-left: 1em;
+}
+.signin .form_content > div > h3 {
+  color: white;
+  font-size: 2.1em;
+  padding-left: 0.3em;
+  margin-bottom: 0.5em;
+}
+.signin .form_content > div > input {
+  height: 7vh;
+  margin: 0.7em;
+  width: 22vw;
+  border-radius: 0.2em;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1.15em;
+  font-family: sans-serif;
+}
+.signin .form_content > div > input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 1em;
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+.signin .form_content > div > button {
+  border: 2px solid white;
+  width: 21vw;
+  margin: 2em 0.8em;
+  height: 6vh;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 0.2em;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.signin .form_content > div > div {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 4vh;
+  margin-top: -1em;
+  width: 21vw;
+  margin-left: 1em;
+  align-items: center;
+}
+.signin .form_content > div > div > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #ccc;
+  font-size: 0.85em;
+  gap: 0.3em;
+}
+.signin .form_content > div > div > span .sinp:checked::after {
+  background-color: #e50914;
+}
+.signin .form_content > div > div > p {
+  font-family: sans-serif;
+  font-size: 0.92em;
+  color: #ccc;
+}
+.signin .form_content > div #one {
+  color: white;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.4);
+  height: 4vh;
+  font-size: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.signin .form_content > div #one > button {
+  font-size: 1.1em;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-family: sans-serif;
+  border: none;
+}
+.signin .form_content > div #one > button:hover {
+  border-bottom-width: 0.1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+.signin .form_content > div #two {
+  color: white;
+  margin-left: 1.3em;
+  font-family: sans-serif;
+  font-size: 0.83em;
+  color: #aaa;
+}
+.signin .form_content > div #two > span {
+  color: #0071eb;
+  font-family: sans-serif;
+  font-size: 1.1em;
+}
+.signin .form_content > div #two > span:hover {
+  border-bottom-width: 0.1px;
+  border-bottom-style: solid;
+  border-bottom-color: #0071eb;
+  cursor: pointer;
+}
+.signin .comp8 {
+  color: rgba(255, 255, 255, 0.7);
+  height: fit-content;
+  margin-top: -10em;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+.signin .comp8 > p {
+  padding: 2em;
+  font-family: sans-serif;
+  margin-left: 10em;
+  color: #aaa;
+}
+.signin .comp8 > p > span {
+  cursor: pointer;
+}
+.signin .comp8 .comp8-2 {
+  display: flex;
+  height: fit-content;
+  margin-left: 10em;
+  gap: 5em;
+}
+.signin .comp8 .comp8-2 > div {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.signin .comp8 .comp8-2 > div > a {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+.signin .comp8 .comp8-2 > div > a:hover {
+  text-decoration: underline;
+}
+.signin .comp8 .comp8-2 > div > a:active {
+  color: rgb(229, 9, 20);
+}
+.signin .comp8 .comp8-2 > div .top-right-first8 {
+  border: 0.01px solid rgba(128, 128, 128, 0.7);
+  border-width: thin;
+  outline: none;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+  display: flex;
+  height: 4.5vh;
+  font-family: sans-serif;
+}
+.signin .comp8 .comp8-2 > div .top-right-first8 .icon {
+  margin-top: 0.25em;
+  font-size: 1.5em;
+  margin-left: 0.1em;
+  border: none;
+  outline: none;
+  background: transparents;
+}
+.signin .comp8 .comp8-2 > div .top-right-first8 #lang2 {
+  margin-left: 0.3em;
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-size: 1.1em;
+  width: 7vw;
+}
+.signin .comp8 .comp8-2 > div .top-right-first8 #lang2:active {
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=signin.css.map */

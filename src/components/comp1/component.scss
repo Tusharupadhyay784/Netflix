@@ -1,0 +1,54 @@
+.comp1 {
+    color: white;
+    display: flex;
+    // border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif !important;
+    height: 68vh;
+
+    .comp1-1 {
+        // border: 2px solid white;
+        height: 25vh;
+        padding: .5em;
+        width: 36vw;
+        margin-top: 2em;
+
+        >h2 {
+            font-family: sans-serif !important;
+            font-size: 3.4em;
+            margin-bottom: .3em;
+        }
+
+        >p {
+
+            // border: 2px solid white;
+            font-family: sans-serif !important;
+            width: 38vw;
+            font-size: 1.5em;
+        }
+    }
+
+    .comp1-2 {
+        // padding-left: 1em;
+        position: relative;
+        width: 40vw;
+
+        .comp1-2-1 {
+            >img {
+                // border: 2px solid white;
+                width: 38vw;
+                z-index: 1;
+                margin-left: 3em;
+            }
+
+            >video {
+                position: absolute;
+                top: 5em;
+                left: 7.2em;
+                width: 28vw;
+                z-index: -1;
+            }
+        }
+    }
+}

@@ -1,0 +1,223 @@
+.container_image {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f1ac72e1-5adc-4caf-bceb-e8ec775414ac/IN-hi-20230213-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: 150em cover;
+    z-index: 999;
+    position: sticky;
+    // border: 2px solid white;
+    // height: 80vh;
+
+
+
+    .container {
+        height: 87vh;
+        border: 2px solid black;
+        background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(255, 255, 255, .001), rgba(0, 0, 0, .9));
+        z-index: -1;
+
+
+        .top {
+            display: flex;
+            // border: 2px solid white;
+            justify-content: space-between;
+            align-items: center;
+            height: 10vh;
+
+            .top-left {
+                // border:2px solid salmon;
+                margin-top: .3em;
+                margin-left: 10em;
+            }
+
+            .top-left>img {
+                // border: 2px solid green;
+                width: 10vw;
+
+            }
+
+            .top-right {
+                display: flex;
+                // border: 2px solid white;
+                width: 28vw;
+                height: 5.5vh;
+
+                .top-right-first {
+                    border: .01px solid rgba(128, 128, 128, 0.7);
+                    border-width: thin;
+                    outline: none;
+                    border-radius: .3em;
+                    margin-left: 1em;
+                    display: flex;
+                    height: 4.5vh;
+                    font-family: sans-serif;
+
+                    // justify-content: space-evenly;
+                    .icon {
+                        margin-top: .25em;
+                        font-size: 1.5em;
+                        margin-left: .1em;
+                        border: none;
+                        outline: none;
+                        background: transparents;
+                    }
+
+                    #lang {
+                        margin-left: .3em;
+                        background: transparent;
+                        color: white;
+                        border: none;
+                        outline: none;
+                        font-style: normal;
+
+                        font-size: 1.1em;
+                        width: 7vw;
+
+                        &:active {
+                            border: none;
+                            outline: none;
+                        }
+                    }
+
+                }
+
+                .top-right-btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 1em;
+                    width: 5.5vw;
+                    margin-top: .01em;
+                    font-weight: 100 !important;
+                    cursor: pointer;
+                    background-color: rgb(229, 9, 20);
+                    color: white;
+                    border-radius: .35em;
+                    font-size: 1.001em;
+                    letter-spacing: .01em;
+                    height: 4.4vh;
+                    border: none;
+                    transition: all .2s;
+
+                    &:hover {
+                        background-color: rgb(229, 9, 20, .8);
+                    }
+                }
+
+            }
+        }
+
+        .middle {
+            // border: 2px solid white;
+            height: 78vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            >h2 {
+                // border: 2px solid brown;
+                font-size: 3.3em;
+                // padding: .3em;
+                margin-bottom: .5em;
+
+            }
+
+            .middle_p {
+                font-family: sans-serif;
+                font-size: 1.7em;
+                font-weight: 100 !important;
+                // border:2px solid crimson;
+                margin-top: -.1em;
+            }
+
+            .middle_p2 {
+                // border: 2px solid green;
+                font-family: sans-serif;
+                font-weight: 100;
+                font-size: 1.4em;
+                margin-top: 1.3em;
+            }
+
+            .bottom {
+                // border: 2px solid white;
+                width: 43vw;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 1em;
+                height: 7vh;
+                gap: .5em;
+
+                .bottom_first {
+                    border: 2px solid white;
+                    background: transparent;
+                    background-color: rgba(10, 10, 10, 0.6);
+                    border: .01px solid rgba(128, 128, 128, 0.7);
+                    position: relative;
+
+                    .inp {
+
+                        font-family: sans-serif;
+                        font-size: 1.2em;
+                        width: 28vw;
+                        height: 6.5vh;
+                        background: transparent;
+                        color: white;
+                        border: none;
+
+                        // background-color: rgba(10, 10, 10, 0.6);
+
+
+                    }
+
+                    .form-label {
+                        position: absolute;
+                        top: 1px;
+                        font-size: 1.1em;
+                        left: 15px;
+                        color: white;
+                        padding: 0 5px;
+                        transition: all .5s;
+                        // border: 2px solid white;
+                    }
+
+                    .inp:focus~label {
+                        // top:-9px;
+                        transform: translateY(-8px) scale(.9);
+
+                        // color: red;
+                    }
+
+                    .inp:not(:placeholder-shown) .inp:not(:focus)~.form-label {
+                        transform: translateY(-15px);
+                    }
+
+                }
+
+                >button {
+                    font-family: sans-serif;
+                    width: 14vw;
+                    background-color: rgb(229, 9, 20);
+                    outline: none;
+                    border: none;
+                    border-radius: .2em;
+                    font-weight: bold;
+                    font-size: 1.4em;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: all .2s;
+
+                    &:hover {
+                        background-color: rgb(229, 9, 20, .8);
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}

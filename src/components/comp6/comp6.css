@@ -1,0 +1,64 @@
+.comp6 {
+  color: rgba(255, 255, 255, 0.7);
+  height: 60vh;
+  margin-left: 9em;
+}
+.comp6 > p {
+  padding: 2em;
+  font-family: sans-serif;
+}
+.comp6 > p > span {
+  border-bottom-width: 0.1px;
+  cursor: pointer;
+  border-bottom-style: solid;
+}
+.comp6 .comp6-2 {
+  display: flex;
+  gap: 10em;
+  height: 50vh;
+}
+.comp6 .comp6-2 > div {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.comp6 .comp6-2 > div > a {
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.comp6 .comp6-2 > div > a:active {
+  color: rgb(229, 9, 20);
+}
+.comp6 .comp6-2 > div .top-right-first2 {
+  border: 0.01px solid rgba(128, 128, 128, 0.7);
+  border-width: thin;
+  outline: none;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+  display: flex;
+  height: 4.5vh;
+  font-family: sans-serif;
+}
+.comp6 .comp6-2 > div .top-right-first2 .icon {
+  margin-top: 0.25em;
+  font-size: 1.5em;
+  margin-left: 0.1em;
+  border: none;
+  outline: none;
+  background: transparents;
+}
+.comp6 .comp6-2 > div .top-right-first2 #lang2 {
+  margin-left: 0.3em;
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-size: 1.1em;
+  width: 7vw;
+}
+.comp6 .comp6-2 > div .top-right-first2 #lang2:active {
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=comp6.css.map */
